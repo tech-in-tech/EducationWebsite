@@ -10,7 +10,7 @@ import whiteArrow from '../../assets/white-arrow.png'
 
 const Campus = () => {
   return (
-    <div className='campus'>
+    <div id='campus' className='campus'>
       <div className="gallery">
         <img src={galary1} alt="" />
         <img src={galary2} alt="" />
