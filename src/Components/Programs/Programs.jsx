@@ -9,7 +9,7 @@ import pgIcon3 from "../../assets/program-icon-3.png"
 
 const Programs = () => {
   return (
-    <div className='programs'>
+    <div id='program' className='programs'>
 
       <div className="program">
         <img src={pg1} alt="" />

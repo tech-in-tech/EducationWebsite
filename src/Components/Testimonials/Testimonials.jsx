@@ -32,7 +32,7 @@ const slideBckword = ()=>{
 }
 
   return (
-    <div className='testimonials'>
+    <div id='testimonals' className='testimonials'>
       <img className='next-btn' src={next_icon} alt="" onClick={slideForward}/>      
       <img className='back-btn' src={back_icon} alt="" onClick={slideBckword}/>      
       <div className='slider'>
